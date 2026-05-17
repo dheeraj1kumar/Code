@@ -67,7 +67,7 @@ app.get('/api/students', async (req, res) => {
     res.json(rows);
   } catch (error) {
     console.error('Error fetching students:', error);
-    res.status(500).json({ error: 'Failed to fetch students' });
+    res.status(500).json({ error: 'Failed to fetch from students' });
   }
 });
 
