@@ -53,10 +53,10 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            echo "🧹 Cleaning up..."
-            sh 'docker image prune -f || true'
-        }
-    }
-}
+//     post {
+//         always {
+//             echo "🧹 Cleaning up..."
+//             sh 'docker image prune -f || true'
+//         }
+//     }
+// }
